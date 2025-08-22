@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxentnuc"
+version = "0.1.0"
+description = "Maximum entropy inversion simulations of chromatin at nucleosome resolution"
+authors = [{ name = "Joseph Paggi", email = "joepaggi@mit.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy",
+    "pandas",
+    "mdanalysis",
+    "parmed",
+    "openmm",
+    "pandas",
+    "click",
+    "cooler",
+    "matplotlib",
+    "scipy",
+    "numpy-hilbert-curve",
+    "mpi4py",
+    "neighbor_balance",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter", 'plotly']

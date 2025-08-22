@@ -1,0 +1,695 @@
+PSF CHEQ EXT XPLOR
+
+         1 !NTITLE
+
+
+       360 !NATOM
+         1 SYS      1        NUC      NUC      NUC      0.000000        1.0000           
+         2 SYS      2        NUC      NUC      NUC      0.000000        1.0000           
+         3 SYS      3        NUC      NUC      NUC      0.000000        1.0000           
+         4 SYS      4        NUC      NUC      NUC      0.000000        1.0000           
+         5 SYS      5        NUC      NUC      NUC      0.000000        1.0000           
+         6 SYS      6        NUC      NUC      NUC      0.000000        1.0000           
+         7 SYS      7        NUC      NUC      NUC      0.000000        1.0000           
+         8 SYS      8        NUC      NUC      NUC      0.000000        1.0000           
+         9 SYS      9        NUC      NUC      NUC      0.000000        1.0000           
+        10 SYS      10       NUC      NUC      NUC      0.000000        1.0000           
+        11 SYS      11       NUC      NUC      NUC      0.000000        1.0000           
+        12 SYS      12       NUC      NUC      NUC      0.000000        1.0000           
+        13 SYS      13       NUC      NUC      NUC      0.000000        1.0000           
+        14 SYS      14       NUC      NUC      NUC      0.000000        1.0000           
+        15 SYS      15       NUC      NUC      NUC      0.000000        1.0000           
+        16 SYS      16       NUC      NUC      NUC      0.000000        1.0000           
+        17 SYS      17       NUC      NUC      NUC      0.000000        1.0000           
+        18 SYS      18       NUC      NUC      NUC      0.000000        1.0000           
+        19 SYS      19       NUC      NUC      NUC      0.000000        1.0000           
+        20 SYS      20       NUC      NUC      NUC      0.000000        1.0000           
+        21 SYS      21       NUC      NUC      NUC      0.000000        1.0000           
+        22 SYS      22       NUC      NUC      NUC      0.000000        1.0000           
+        23 SYS      23       NUC      NUC      NUC      0.000000        1.0000           
+        24 SYS      24       NUC      NUC      NUC      0.000000        1.0000           
+        25 SYS      25       NUC      NUC      NUC      0.000000        1.0000           
+        26 SYS      26       NUC      NUC      NUC      0.000000        1.0000           
+        27 SYS      27       NUC      NUC      NUC      0.000000        1.0000           
+        28 SYS      28       NUC      NUC      NUC      0.000000        1.0000           
+        29 SYS      29       NUC      NUC      NUC      0.000000        1.0000           
+        30 SYS      30       NUC      NUC      NUC      0.000000        1.0000           
+        31 SYS      31       NUC      NUC      NUC      0.000000        1.0000           
+        32 SYS      32       NUC      NUC      NUC      0.000000        1.0000           
+        33 SYS      33       NUC      NUC      NUC      0.000000        1.0000           
+        34 SYS      34       NUC      NUC      NUC      0.000000        1.0000           
+        35 SYS      35       NUC      NUC      NUC      0.000000        1.0000           
+        36 SYS      36       NUC      NUC      NUC      0.000000        1.0000           
+        37 SYS      37       NUC      NUC      NUC      0.000000        1.0000           
+        38 SYS      38       NUC      NUC      NUC      0.000000        1.0000           
+        39 SYS      39       NUC      NUC      NUC      0.000000        1.0000           
+        40 SYS      40       NUC      NUC      NUC      0.000000        1.0000           
+        41 SYS      41       NUC      NUC      NUC      0.000000        1.0000           
+        42 SYS      42       NUC      NUC      NUC      0.000000        1.0000           
+        43 SYS      43       NUC      NUC      NUC      0.000000        1.0000           
+        44 SYS      44       NUC      NUC      NUC      0.000000        1.0000           
+        45 SYS      45       NUC      NUC      NUC      0.000000        1.0000           
+        46 SYS      46       NUC      NUC      NUC      0.000000        1.0000           
+        47 SYS      47       NUC      NUC      NUC      0.000000        1.0000           
+        48 SYS      48       NUC      NUC      NUC      0.000000        1.0000           
+        49 SYS      49       NUC      NUC      NUC      0.000000        1.0000           
+        50 SYS      50       NUC      NUC      NUC      0.000000        1.0000           
+        51 SYS      51       NUC      NUC      NUC      0.000000        1.0000           
+        52 SYS      52       NUC      NUC      NUC      0.000000        1.0000           
+        53 SYS      53       NUC      NUC      NUC      0.000000        1.0000           
+        54 SYS      54       NUC      NUC      NUC      0.000000        1.0000           
+        55 SYS      55       NUC      NUC      NUC      0.000000        1.0000           
+        56 SYS      56       NUC      NUC      NUC      0.000000        1.0000           
+        57 SYS      57       NUC      NUC      NUC      0.000000        1.0000           
+        58 SYS      58       NUC      NUC      NUC      0.000000        1.0000           
+        59 SYS      59       NUC      NUC      NUC      0.000000        1.0000           
+        60 SYS      60       NUC      NUC      NUC      0.000000        1.0000           
+        61 SYS      61       NUC      NUC      NUC      0.000000        1.0000           
+        62 SYS      62       NUC      NUC      NUC      0.000000        1.0000           
+        63 SYS      63       NUC      NUC      NUC      0.000000        1.0000           
+        64 SYS      64       NUC      NUC      NUC      0.000000        1.0000           
+        65 SYS      65       NUC      NUC      NUC      0.000000        1.0000           
+        66 SYS      66       NUC      NUC      NUC      0.000000        1.0000           
+        67 SYS      67       NUC      NUC      NUC      0.000000        1.0000           
+        68 SYS      68       NUC      NUC      NUC      0.000000        1.0000           
+        69 SYS      69       NUC      NUC      NUC      0.000000        1.0000           
+        70 SYS      70       NUC      NUC      NUC      0.000000        1.0000           
+        71 SYS      71       NUC      NUC      NUC      0.000000        1.0000           
+        72 SYS      72       NUC      NUC      NUC      0.000000        1.0000           
+        73 SYS      73       NUC      NUC      NUC      0.000000        1.0000           
+        74 SYS      74       NUC      NUC      NUC      0.000000        1.0000           
+        75 SYS      75       NUC      NUC      NUC      0.000000        1.0000           
+        76 SYS      76       NUC      NUC      NUC      0.000000        1.0000           
+        77 SYS      77       NUC      NUC      NUC      0.000000        1.0000           
+        78 SYS      78       NUC      NUC      NUC      0.000000        1.0000           
+        79 SYS      79       NUC      NUC      NUC      0.000000        1.0000           
+        80 SYS      80       NUC      NUC      NUC      0.000000        1.0000           
+        81 SYS      81       NUC      NUC      NUC      0.000000        1.0000           
+        82 SYS      82       NUC      NUC      NUC      0.000000        1.0000           
+        83 SYS      83       NUC      NUC      NUC      0.000000        1.0000           
+        84 SYS      84       NUC      NUC      NUC      0.000000        1.0000           
+        85 SYS      85       NUC      NUC      NUC      0.000000        1.0000           
+        86 SYS      86       NUC      NUC      NUC      0.000000        1.0000           
+        87 SYS      87       NUC      NUC      NUC      0.000000        1.0000           
+        88 SYS      88       NUC      NUC      NUC      0.000000        1.0000           
+        89 SYS      89       NUC      NUC      NUC      0.000000        1.0000           
+        90 SYS      90       NUC      NUC      NUC      0.000000        1.0000           
+        91 SYS      91       NUC      NUC      NUC      0.000000        1.0000           
+        92 SYS      92       NUC      NUC      NUC      0.000000        1.0000           
+        93 SYS      93       NUC      NUC      NUC      0.000000        1.0000           
+        94 SYS      94       NUC      NUC      NUC      0.000000        1.0000           
+        95 SYS      95       NUC      NUC      NUC      0.000000        1.0000           
+        96 SYS      96       NUC      NUC      NUC      0.000000        1.0000           
+        97 SYS      97       NUC      NUC      NUC      0.000000        1.0000           
+        98 SYS      98       NUC      NUC      NUC      0.000000        1.0000           
+        99 SYS      99       NUC      NUC      NUC      0.000000        1.0000           
+       100 SYS      100      NUC      NUC      NUC      0.000000        1.0000           
+       101 SYS      101      NUC      NUC      NUC      0.000000        1.0000           
+       102 SYS      102      NUC      NUC      NUC      0.000000        1.0000           
+       103 SYS      103      NUC      NUC      NUC      0.000000        1.0000           
+       104 SYS      104      NUC      NUC      NUC      0.000000        1.0000           
+       105 SYS      105      NUC      NUC      NUC      0.000000        1.0000           
+       106 SYS      106      NUC      NUC      NUC      0.000000        1.0000           
+       107 SYS      107      NUC      NUC      NUC      0.000000        1.0000           
+       108 SYS      108      NUC      NUC      NUC      0.000000        1.0000           
+       109 SYS      109      NUC      NUC      NUC      0.000000        1.0000           
+       110 SYS      110      NUC      NUC      NUC      0.000000        1.0000           
+       111 SYS      111      NUC      NUC      NUC      0.000000        1.0000           
+       112 SYS      112      NUC      NUC      NUC      0.000000        1.0000           
+       113 SYS      113      NUC      NUC      NUC      0.000000        1.0000           
+       114 SYS      114      NUC      NUC      NUC      0.000000        1.0000           
+       115 SYS      115      NUC      NUC      NUC      0.000000        1.0000           
+       116 SYS      116      NUC      NUC      NUC      0.000000        1.0000           
+       117 SYS      117      NUC      NUC      NUC      0.000000        1.0000           
+       118 SYS      118      NUC      NUC      NUC      0.000000        1.0000           
+       119 SYS      119      NUC      NUC      NUC      0.000000        1.0000           
+       120 SYS      120      NUC      NUC      NUC      0.000000        1.0000           
+       121 SYS      121      NUC      NUC      NUC      0.000000        1.0000           
+       122 SYS      122      NUC      NUC      NUC      0.000000        1.0000           
+       123 SYS      123      NUC      NUC      NUC      0.000000        1.0000           
+       124 SYS      124      NUC      NUC      NUC      0.000000        1.0000           
+       125 SYS      125      NUC      NUC      NUC      0.000000        1.0000           
+       126 SYS      126      NUC      NUC      NUC      0.000000        1.0000           
+       127 SYS      127      NUC      NUC      NUC      0.000000        1.0000           
+       128 SYS      128      NUC      NUC      NUC      0.000000        1.0000           
+       129 SYS      129      NUC      NUC      NUC      0.000000        1.0000           
+       130 SYS      130      NUC      NUC      NUC      0.000000        1.0000           
+       131 SYS      131      NUC      NUC      NUC      0.000000        1.0000           
+       132 SYS      132      NUC      NUC      NUC      0.000000        1.0000           
+       133 SYS      133      NUC      NUC      NUC      0.000000        1.0000           
+       134 SYS      134      NUC      NUC      NUC      0.000000        1.0000           
+       135 SYS      135      NUC      NUC      NUC      0.000000        1.0000           
+       136 SYS      136      NUC      NUC      NUC      0.000000        1.0000           
+       137 SYS      137      NUC      NUC      NUC      0.000000        1.0000           
+       138 SYS      138      NUC      NUC      NUC      0.000000        1.0000           
+       139 SYS      139      NUC      NUC      NUC      0.000000        1.0000           
+       140 SYS      140      NUC      NUC      NUC      0.000000        1.0000           
+       141 SYS      141      NUC      NUC      NUC      0.000000        1.0000           
+       142 SYS      142      NUC      NUC      NUC      0.000000        1.0000           
+       143 SYS      143      NUC      NUC      NUC      0.000000        1.0000           
+       144 SYS      144      NUC      NUC      NUC      0.000000        1.0000           
+       145 SYS      145      NUC      NUC      NUC      0.000000        1.0000           
+       146 SYS      146      NUC      NUC      NUC      0.000000        1.0000           
+       147 SYS      147      NUC      NUC      NUC      0.000000        1.0000           
+       148 SYS      148      NUC      NUC      NUC      0.000000        1.0000           
+       149 SYS      149      NUC      NUC      NUC      0.000000        1.0000           
+       150 SYS      150      NUC      NUC      NUC      0.000000        1.0000           
+       151 SYS      151      NUC      NUC      NUC      0.000000        1.0000           
+       152 SYS      152      NUC      NUC      NUC      0.000000        1.0000           
+       153 SYS      153      NUC      NUC      NUC      0.000000        1.0000           
+       154 SYS      154      NUC      NUC      NUC      0.000000        1.0000           
+       155 SYS      155      NUC      NUC      NUC      0.000000        1.0000           
+       156 SYS      156      NUC      NUC      NUC      0.000000        1.0000           
+       157 SYS      157      NUC      NUC      NUC      0.000000        1.0000           
+       158 SYS      158      NUC      NUC      NUC      0.000000        1.0000           
+       159 SYS      159      NUC      NUC      NUC      0.000000        1.0000           
+       160 SYS      160      NUC      NUC      NUC      0.000000        1.0000           
+       161 SYS      161      NUC      NUC      NUC      0.000000        1.0000           
+       162 SYS      162      NUC      NUC      NUC      0.000000        1.0000           
+       163 SYS      163      NUC      NUC      NUC      0.000000        1.0000           
+       164 SYS      164      NUC      NUC      NUC      0.000000        1.0000           
+       165 SYS      165      NUC      NUC      NUC      0.000000        1.0000           
+       166 SYS      166      NUC      NUC      NUC      0.000000        1.0000           
+       167 SYS      167      NUC      NUC      NUC      0.000000        1.0000           
+       168 SYS      168      NUC      NUC      NUC      0.000000        1.0000           
+       169 SYS      169      NUC      NUC      NUC      0.000000        1.0000           
+       170 SYS      170      NUC      NUC      NUC      0.000000        1.0000           
+       171 SYS      171      NUC      NUC      NUC      0.000000        1.0000           
+       172 SYS      172      NUC      NUC      NUC      0.000000        1.0000           
+       173 SYS      173      NUC      NUC      NUC      0.000000        1.0000           
+       174 SYS      174      NUC      NUC      NUC      0.000000        1.0000           
+       175 SYS      175      NUC      NUC      NUC      0.000000        1.0000           
+       176 SYS      176      NUC      NUC      NUC      0.000000        1.0000           
+       177 SYS      177      NUC      NUC      NUC      0.000000        1.0000           
+       178 SYS      178      NUC      NUC      NUC      0.000000        1.0000           
+       179 SYS      179      NUC      NUC      NUC      0.000000        1.0000           
+       180 SYS      180      NUC      NUC      NUC      0.000000        1.0000           
+       181 SYS      181      NUC      NUC      NUC      0.000000        1.0000           
+       182 SYS      182      NUC      NUC      NUC      0.000000        1.0000           
+       183 SYS      183      NUC      NUC      NUC      0.000000        1.0000           
+       184 SYS      184      NUC      NUC      NUC      0.000000        1.0000           
+       185 SYS      185      NUC      NUC      NUC      0.000000        1.0000           
+       186 SYS      186      NUC      NUC      NUC      0.000000        1.0000           
+       187 SYS      187      NUC      NUC      NUC      0.000000        1.0000           
+       188 SYS      188      NUC      NUC      NUC      0.000000        1.0000           
+       189 SYS      189      NUC      NUC      NUC      0.000000        1.0000           
+       190 SYS      190      NUC      NUC      NUC      0.000000        1.0000           
+       191 SYS      191      NUC      NUC      NUC      0.000000        1.0000           
+       192 SYS      192      NUC      NUC      NUC      0.000000        1.0000           
+       193 SYS      193      NUC      NUC      NUC      0.000000        1.0000           
+       194 SYS      194      NUC      NUC      NUC      0.000000        1.0000           
+       195 SYS      195      NUC      NUC      NUC      0.000000        1.0000           
+       196 SYS      196      NUC      NUC      NUC      0.000000        1.0000           
+       197 SYS      197      NUC      NUC      NUC      0.000000        1.0000           
+       198 SYS      198      NUC      NUC      NUC      0.000000        1.0000           
+       199 SYS      199      NUC      NUC      NUC      0.000000        1.0000           
+       200 SYS      200      NUC      NUC      NUC      0.000000        1.0000           
+       201 SYS      201      NUC      NUC      NUC      0.000000        1.0000           
+       202 SYS      202      NUC      NUC      NUC      0.000000        1.0000           
+       203 SYS      203      NUC      NUC      NUC      0.000000        1.0000           
+       204 SYS      204      NUC      NUC      NUC      0.000000        1.0000           
+       205 SYS      205      NUC      NUC      NUC      0.000000        1.0000           
+       206 SYS      206      NUC      NUC      NUC      0.000000        1.0000           
+       207 SYS      207      NUC      NUC      NUC      0.000000        1.0000           
+       208 SYS      208      NUC      NUC      NUC      0.000000        1.0000           
+       209 SYS      209      NUC      NUC      NUC      0.000000        1.0000           
+       210 SYS      210      NUC      NUC      NUC      0.000000        1.0000           
+       211 SYS      211      NUC      NUC      NUC      0.000000        1.0000           
+       212 SYS      212      NUC      NUC      NUC      0.000000        1.0000           
+       213 SYS      213      NUC      NUC      NUC      0.000000        1.0000           
+       214 SYS      214      NUC      NUC      NUC      0.000000        1.0000           
+       215 SYS      215      NUC      NUC      NUC      0.000000        1.0000           
+       216 SYS      216      NUC      NUC      NUC      0.000000        1.0000           
+       217 SYS      217      NUC      NUC      NUC      0.000000        1.0000           
+       218 SYS      218      NUC      NUC      NUC      0.000000        1.0000           
+       219 SYS      219      NUC      NUC      NUC      0.000000        1.0000           
+       220 SYS      220      NUC      NUC      NUC      0.000000        1.0000           
+       221 SYS      221      NUC      NUC      NUC      0.000000        1.0000           
+       222 SYS      222      NUC      NUC      NUC      0.000000        1.0000           
+       223 SYS      223      NUC      NUC      NUC      0.000000        1.0000           
+       224 SYS      224      NUC      NUC      NUC      0.000000        1.0000           
+       225 SYS      225      NUC      NUC      NUC      0.000000        1.0000           
+       226 SYS      226      NUC      NUC      NUC      0.000000        1.0000           
+       227 SYS      227      NUC      NUC      NUC      0.000000        1.0000           
+       228 SYS      228      NUC      NUC      NUC      0.000000        1.0000           
+       229 SYS      229      NUC      NUC      NUC      0.000000        1.0000           
+       230 SYS      230      NUC      NUC      NUC      0.000000        1.0000           
+       231 SYS      231      NUC      NUC      NUC      0.000000        1.0000           
+       232 SYS      232      NUC      NUC      NUC      0.000000        1.0000           
+       233 SYS      233      NUC      NUC      NUC      0.000000        1.0000           
+       234 SYS      234      NUC      NUC      NUC      0.000000        1.0000           
+       235 SYS      235      NUC      NUC      NUC      0.000000        1.0000           
+       236 SYS      236      NUC      NUC      NUC      0.000000        1.0000           
+       237 SYS      237      NUC      NUC      NUC      0.000000        1.0000           
+       238 SYS      238      NUC      NUC      NUC      0.000000        1.0000           
+       239 SYS      239      NUC      NUC      NUC      0.000000        1.0000           
+       240 SYS      240      NUC      NUC      NUC      0.000000        1.0000           
+       241 SYS      241      NUC      NUC      NUC      0.000000        1.0000           
+       242 SYS      242      NUC      NUC      NUC      0.000000        1.0000           
+       243 SYS      243      NUC      NUC      NUC      0.000000        1.0000           
+       244 SYS      244      NUC      NUC      NUC      0.000000        1.0000           
+       245 SYS      245      NUC      NUC      NUC      0.000000        1.0000           
+       246 SYS      246      NUC      NUC      NUC      0.000000        1.0000           
+       247 SYS      247      NUC      NUC      NUC      0.000000        1.0000           
+       248 SYS      248      NUC      NUC      NUC      0.000000        1.0000           
+       249 SYS      249      NUC      NUC      NUC      0.000000        1.0000           
+       250 SYS      250      NUC      NUC      NUC      0.000000        1.0000           
+       251 SYS      251      NUC      NUC      NUC      0.000000        1.0000           
+       252 SYS      252      NUC      NUC      NUC      0.000000        1.0000           
+       253 SYS      253      NUC      NUC      NUC      0.000000        1.0000           
+       254 SYS      254      NUC      NUC      NUC      0.000000        1.0000           
+       255 SYS      255      NUC      NUC      NUC      0.000000        1.0000           
+       256 SYS      256      NUC      NUC      NUC      0.000000        1.0000           
+       257 SYS      257      NUC      NUC      NUC      0.000000        1.0000           
+       258 SYS      258      NUC      NUC      NUC      0.000000        1.0000           
+       259 SYS      259      NUC      NUC      NUC      0.000000        1.0000           
+       260 SYS      260      NUC      NUC      NUC      0.000000        1.0000           
+       261 SYS      261      NUC      NUC      NUC      0.000000        1.0000           
+       262 SYS      262      NUC      NUC      NUC      0.000000        1.0000           
+       263 SYS      263      NUC      NUC      NUC      0.000000        1.0000           
+       264 SYS      264      NUC      NUC      NUC      0.000000        1.0000           
+       265 SYS      265      NUC      NUC      NUC      0.000000        1.0000           
+       266 SYS      266      NUC      NUC      NUC      0.000000        1.0000           
+       267 SYS      267      NUC      NUC      NUC      0.000000        1.0000           
+       268 SYS      268      NUC      NUC      NUC      0.000000        1.0000           
+       269 SYS      269      NUC      NUC      NUC      0.000000        1.0000           
+       270 SYS      270      NUC      NUC      NUC      0.000000        1.0000           
+       271 SYS      271      NUC      NUC      NUC      0.000000        1.0000           
+       272 SYS      272      NUC      NUC      NUC      0.000000        1.0000           
+       273 SYS      273      NUC      NUC      NUC      0.000000        1.0000           
+       274 SYS      274      NUC      NUC      NUC      0.000000        1.0000           
+       275 SYS      275      NUC      NUC      NUC      0.000000        1.0000           
+       276 SYS      276      NUC      NUC      NUC      0.000000        1.0000           
+       277 SYS      277      NUC      NUC      NUC      0.000000        1.0000           
+       278 SYS      278      NUC      NUC      NUC      0.000000        1.0000           
+       279 SYS      279      NUC      NUC      NUC      0.000000        1.0000           
+       280 SYS      280      NUC      NUC      NUC      0.000000        1.0000           
+       281 SYS      281      NUC      NUC      NUC      0.000000        1.0000           
+       282 SYS      282      NUC      NUC      NUC      0.000000        1.0000           
+       283 SYS      283      NUC      NUC      NUC      0.000000        1.0000           
+       284 SYS      284      NUC      NUC      NUC      0.000000        1.0000           
+       285 SYS      285      NUC      NUC      NUC      0.000000        1.0000           
+       286 SYS      286      NUC      NUC      NUC      0.000000        1.0000           
+       287 SYS      287      NUC      NUC      NUC      0.000000        1.0000           
+       288 SYS      288      NUC      NUC      NUC      0.000000        1.0000           
+       289 SYS      289      NUC      NUC      NUC      0.000000        1.0000           
+       290 SYS      290      NUC      NUC      NUC      0.000000        1.0000           
+       291 SYS      291      NUC      NUC      NUC      0.000000        1.0000           
+       292 SYS      292      NUC      NUC      NUC      0.000000        1.0000           
+       293 SYS      293      NUC      NUC      NUC      0.000000        1.0000           
+       294 SYS      294      NUC      NUC      NUC      0.000000        1.0000           
+       295 SYS      295      NUC      NUC      NUC      0.000000        1.0000           
+       296 SYS      296      NUC      NUC      NUC      0.000000        1.0000           
+       297 SYS      297      NUC      NUC      NUC      0.000000        1.0000           
+       298 SYS      298      NUC      NUC      NUC      0.000000        1.0000           
+       299 SYS      299      NUC      NUC      NUC      0.000000        1.0000           
+       300 SYS      300      NUC      NUC      NUC      0.000000        1.0000           
+       301 SYS      301      NUC      NUC      NUC      0.000000        1.0000           
+       302 SYS      302      NUC      NUC      NUC      0.000000        1.0000           
+       303 SYS      303      NUC      NUC      NUC      0.000000        1.0000           
+       304 SYS      304      NUC      NUC      NUC      0.000000        1.0000           
+       305 SYS      305      NUC      NUC      NUC      0.000000        1.0000           
+       306 SYS      306      NUC      NUC      NUC      0.000000        1.0000           
+       307 SYS      307      NUC      NUC      NUC      0.000000        1.0000           
+       308 SYS      308      NUC      NUC      NUC      0.000000        1.0000           
+       309 SYS      309      NUC      NUC      NUC      0.000000        1.0000           
+       310 SYS      310      NUC      NUC      NUC      0.000000        1.0000           
+       311 SYS      311      NUC      NUC      NUC      0.000000        1.0000           
+       312 SYS      312      NUC      NUC      NUC      0.000000        1.0000           
+       313 SYS      313      NUC      NUC      NUC      0.000000        1.0000           
+       314 SYS      314      NUC      NUC      NUC      0.000000        1.0000           
+       315 SYS      315      NUC      NUC      NUC      0.000000        1.0000           
+       316 SYS      316      NUC      NUC      NUC      0.000000        1.0000           
+       317 SYS      317      NUC      NUC      NUC      0.000000        1.0000           
+       318 SYS      318      NUC      NUC      NUC      0.000000        1.0000           
+       319 SYS      319      NUC      NUC      NUC      0.000000        1.0000           
+       320 SYS      320      NUC      NUC      NUC      0.000000        1.0000           
+       321 SYS      321      NUC      NUC      NUC      0.000000        1.0000           
+       322 SYS      322      NUC      NUC      NUC      0.000000        1.0000           
+       323 SYS      323      NUC      NUC      NUC      0.000000        1.0000           
+       324 SYS      324      NUC      NUC      NUC      0.000000        1.0000           
+       325 SYS      325      NUC      NUC      NUC      0.000000        1.0000           
+       326 SYS      326      NUC      NUC      NUC      0.000000        1.0000           
+       327 SYS      327      NUC      NUC      NUC      0.000000        1.0000           
+       328 SYS      328      NUC      NUC      NUC      0.000000        1.0000           
+       329 SYS      329      NUC      NUC      NUC      0.000000        1.0000           
+       330 SYS      330      NUC      NUC      NUC      0.000000        1.0000           
+       331 SYS      331      NUC      NUC      NUC      0.000000        1.0000           
+       332 SYS      332      NUC      NUC      NUC      0.000000        1.0000           
+       333 SYS      333      NUC      NUC      NUC      0.000000        1.0000           
+       334 SYS      334      NUC      NUC      NUC      0.000000        1.0000           
+       335 SYS      335      NUC      NUC      NUC      0.000000        1.0000           
+       336 SYS      336      NUC      NUC      NUC      0.000000        1.0000           
+       337 SYS      337      NUC      NUC      NUC      0.000000        1.0000           
+       338 SYS      338      NUC      NUC      NUC      0.000000        1.0000           
+       339 SYS      339      NUC      NUC      NUC      0.000000        1.0000           
+       340 SYS      340      NUC      NUC      NUC      0.000000        1.0000           
+       341 SYS      341      NUC      NUC      NUC      0.000000        1.0000           
+       342 SYS      342      NUC      NUC      NUC      0.000000        1.0000           
+       343 SYS      343      NUC      NUC      NUC      0.000000        1.0000           
+       344 SYS      344      NUC      NUC      NUC      0.000000        1.0000           
+       345 SYS      345      NUC      NUC      NUC      0.000000        1.0000           
+       346 SYS      346      NUC      NUC      NUC      0.000000        1.0000           
+       347 SYS      347      NUC      NUC      NUC      0.000000        1.0000           
+       348 SYS      348      NUC      NUC      NUC      0.000000        1.0000           
+       349 SYS      349      NUC      NUC      NUC      0.000000        1.0000           
+       350 SYS      350      NUC      NUC      NUC      0.000000        1.0000           
+       351 SYS      351      NUC      NUC      NUC      0.000000        1.0000           
+       352 SYS      352      NUC      NUC      NUC      0.000000        1.0000           
+       353 SYS      353      NUC      NUC      NUC      0.000000        1.0000           
+       354 SYS      354      NUC      NUC      NUC      0.000000        1.0000           
+       355 SYS      355      NUC      NUC      NUC      0.000000        1.0000           
+       356 SYS      356      NUC      NUC      NUC      0.000000        1.0000           
+       357 SYS      357      NUC      NUC      NUC      0.000000        1.0000           
+       358 SYS      358      NUC      NUC      NUC      0.000000        1.0000           
+       359 SYS      359      NUC      NUC      NUC      0.000000        1.0000           
+       360 SYS      360      NUC      NUC      NUC      0.000000        1.0000           
+
+       359 !NBOND: bonds
+         1         2         2         3         3         4         4         5
+         5         6         6         7         7         8         8         9
+         9        10        10        11        11        12        12        13
+        13        14        14        15        15        16        16        17
+        17        18        18        19        19        20        20        21
+        21        22        22        23        23        24        24        25
+        25        26        26        27        27        28        28        29
+        29        30        30        31        31        32        32        33
+        33        34        34        35        35        36        36        37
+        37        38        38        39        39        40        40        41
+        41        42        42        43        43        44        44        45
+        45        46        46        47        47        48        48        49
+        49        50        50        51        51        52        52        53
+        53        54        54        55        55        56        56        57
+        57        58        58        59        59        60        60        61
+        61        62        62        63        63        64        64        65
+        65        66        66        67        67        68        68        69
+        69        70        70        71        71        72        72        73
+        73        74        74        75        75        76        76        77
+        77        78        78        79        79        80        80        81
+        81        82        82        83        83        84        84        85
+        85        86        86        87        87        88        88        89
+        89        90        90        91        91        92        92        93
+        93        94        94        95        95        96        96        97
+        97        98        98        99        99       100       100       101
+       101       102       102       103       103       104       104       105
+       105       106       106       107       107       108       108       109
+       109       110       110       111       111       112       112       113
+       113       114       114       115       115       116       116       117
+       117       118       118       119       119       120       120       121
+       121       122       122       123       123       124       124       125
+       125       126       126       127       127       128       128       129
+       129       130       130       131       131       132       132       133
+       133       134       134       135       135       136       136       137
+       137       138       138       139       139       140       140       141
+       141       142       142       143       143       144       144       145
+       145       146       146       147       147       148       148       149
+       149       150       150       151       151       152       152       153
+       153       154       154       155       155       156       156       157
+       157       158       158       159       159       160       160       161
+       161       162       162       163       163       164       164       165
+       165       166       166       167       167       168       168       169
+       169       170       170       171       171       172       172       173
+       173       174       174       175       175       176       176       177
+       177       178       178       179       179       180       180       181
+       181       182       182       183       183       184       184       185
+       185       186       186       187       187       188       188       189
+       189       190       190       191       191       192       192       193
+       193       194       194       195       195       196       196       197
+       197       198       198       199       199       200       200       201
+       201       202       202       203       203       204       204       205
+       205       206       206       207       207       208       208       209
+       209       210       210       211       211       212       212       213
+       213       214       214       215       215       216       216       217
+       217       218       218       219       219       220       220       221
+       221       222       222       223       223       224       224       225
+       225       226       226       227       227       228       228       229
+       229       230       230       231       231       232       232       233
+       233       234       234       235       235       236       236       237
+       237       238       238       239       239       240       240       241
+       241       242       242       243       243       244       244       245
+       245       246       246       247       247       248       248       249
+       249       250       250       251       251       252       252       253
+       253       254       254       255       255       256       256       257
+       257       258       258       259       259       260       260       261
+       261       262       262       263       263       264       264       265
+       265       266       266       267       267       268       268       269
+       269       270       270       271       271       272       272       273
+       273       274       274       275       275       276       276       277
+       277       278       278       279       279       280       280       281
+       281       282       282       283       283       284       284       285
+       285       286       286       287       287       288       288       289
+       289       290       290       291       291       292       292       293
+       293       294       294       295       295       296       296       297
+       297       298       298       299       299       300       300       301
+       301       302       302       303       303       304       304       305
+       305       306       306       307       307       308       308       309
+       309       310       310       311       311       312       312       313
+       313       314       314       315       315       316       316       317
+       317       318       318       319       319       320       320       321
+       321       322       322       323       323       324       324       325
+       325       326       326       327       327       328       328       329
+       329       330       330       331       331       332       332       333
+       333       334       334       335       335       336       336       337
+       337       338       338       339       339       340       340       341
+       341       342       342       343       343       344       344       345
+       345       346       346       347       347       348       348       349
+       349       350       350       351       351       352       352       353
+       353       354       354       355       355       356       356       357
+       357       358       358       359       359       360
+
+         0 !NTHETA: angles
+
+
+         0 !NPHI: dihedrals
+
+
+         0 !NIMPHI: impropers
+
+
+         0 !NDON: donors
+
+
+         0 !NACC: acceptors
+
+
+         0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+
+       360         0 !NGRP NST2
+         0         1         0         1         1         0         2         1         0
+         3         1         0         4         1         0         5         1         0
+         6         1         0         7         1         0         8         1         0
+         9         1         0        10         1         0        11         1         0
+        12         1         0        13         1         0        14         1         0
+        15         1         0        16         1         0        17         1         0
+        18         1         0        19         1         0        20         1         0
+        21         1         0        22         1         0        23         1         0
+        24         1         0        25         1         0        26         1         0
+        27         1         0        28         1         0        29         1         0
+        30         1         0        31         1         0        32         1         0
+        33         1         0        34         1         0        35         1         0
+        36         1         0        37         1         0        38         1         0
+        39         1         0        40         1         0        41         1         0
+        42         1         0        43         1         0        44         1         0
+        45         1         0        46         1         0        47         1         0
+        48         1         0        49         1         0        50         1         0
+        51         1         0        52         1         0        53         1         0
+        54         1         0        55         1         0        56         1         0
+        57         1         0        58         1         0        59         1         0
+        60         1         0        61         1         0        62         1         0
+        63         1         0        64         1         0        65         1         0
+        66         1         0        67         1         0        68         1         0
+        69         1         0        70         1         0        71         1         0
+        72         1         0        73         1         0        74         1         0
+        75         1         0        76         1         0        77         1         0
+        78         1         0        79         1         0        80         1         0
+        81         1         0        82         1         0        83         1         0
+        84         1         0        85         1         0        86         1         0
+        87         1         0        88         1         0        89         1         0
+        90         1         0        91         1         0        92         1         0
+        93         1         0        94         1         0        95         1         0
+        96         1         0        97         1         0        98         1         0
+        99         1         0       100         1         0       101         1         0
+       102         1         0       103         1         0       104         1         0
+       105         1         0       106         1         0       107         1         0
+       108         1         0       109         1         0       110         1         0
+       111         1         0       112         1         0       113         1         0
+       114         1         0       115         1         0       116         1         0
+       117         1         0       118         1         0       119         1         0
+       120         1         0       121         1         0       122         1         0
+       123         1         0       124         1         0       125         1         0
+       126         1         0       127         1         0       128         1         0
+       129         1         0       130         1         0       131         1         0
+       132         1         0       133         1         0       134         1         0
+       135         1         0       136         1         0       137         1         0
+       138         1         0       139         1         0       140         1         0
+       141         1         0       142         1         0       143         1         0
+       144         1         0       145         1         0       146         1         0
+       147         1         0       148         1         0       149         1         0
+       150         1         0       151         1         0       152         1         0
+       153         1         0       154         1         0       155         1         0
+       156         1         0       157         1         0       158         1         0
+       159         1         0       160         1         0       161         1         0
+       162         1         0       163         1         0       164         1         0
+       165         1         0       166         1         0       167         1         0
+       168         1         0       169         1         0       170         1         0
+       171         1         0       172         1         0       173         1         0
+       174         1         0       175         1         0       176         1         0
+       177         1         0       178         1         0       179         1         0
+       180         1         0       181         1         0       182         1         0
+       183         1         0       184         1         0       185         1         0
+       186         1         0       187         1         0       188         1         0
+       189         1         0       190         1         0       191         1         0
+       192         1         0       193         1         0       194         1         0
+       195         1         0       196         1         0       197         1         0
+       198         1         0       199         1         0       200         1         0
+       201         1         0       202         1         0       203         1         0
+       204         1         0       205         1         0       206         1         0
+       207         1         0       208         1         0       209         1         0
+       210         1         0       211         1         0       212         1         0
+       213         1         0       214         1         0       215         1         0
+       216         1         0       217         1         0       218         1         0
+       219         1         0       220         1         0       221         1         0
+       222         1         0       223         1         0       224         1         0
+       225         1         0       226         1         0       227         1         0
+       228         1         0       229         1         0       230         1         0
+       231         1         0       232         1         0       233         1         0
+       234         1         0       235         1         0       236         1         0
+       237         1         0       238         1         0       239         1         0
+       240         1         0       241         1         0       242         1         0
+       243         1         0       244         1         0       245         1         0
+       246         1         0       247         1         0       248         1         0
+       249         1         0       250         1         0       251         1         0
+       252         1         0       253         1         0       254         1         0
+       255         1         0       256         1         0       257         1         0
+       258         1         0       259         1         0       260         1         0
+       261         1         0       262         1         0       263         1         0
+       264         1         0       265         1         0       266         1         0
+       267         1         0       268         1         0       269         1         0
+       270         1         0       271         1         0       272         1         0
+       273         1         0       274         1         0       275         1         0
+       276         1         0       277         1         0       278         1         0
+       279         1         0       280         1         0       281         1         0
+       282         1         0       283         1         0       284         1         0
+       285         1         0       286         1         0       287         1         0
+       288         1         0       289         1         0       290         1         0
+       291         1         0       292         1         0       293         1         0
+       294         1         0       295         1         0       296         1         0
+       297         1         0       298         1         0       299         1         0
+       300         1         0       301         1         0       302         1         0
+       303         1         0       304         1         0       305         1         0
+       306         1         0       307         1         0       308         1         0
+       309         1         0       310         1         0       311         1         0
+       312         1         0       313         1         0       314         1         0
+       315         1         0       316         1         0       317         1         0
+       318         1         0       319         1         0       320         1         0
+       321         1         0       322         1         0       323         1         0
+       324         1         0       325         1         0       326         1         0
+       327         1         0       328         1         0       329         1         0
+       330         1         0       331         1         0       332         1         0
+       333         1         0       334         1         0       335         1         0
+       336         1         0       337         1         0       338         1         0
+       339         1         0       340         1         0       341         1         0
+       342         1         0       343         1         0       344         1         0
+       345         1         0       346         1         0       347         1         0
+       348         1         0       349         1         0       350         1         0
+       351         1         0       352         1         0       353         1         0
+       354         1         0       355         1         0       356         1         0
+       357         1         0       358         1         0       359         1         0
+
+         1 !MOLNT
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+
+         0         0 !NUMLP NUMLPH
+
+         0 !NCRTERM: cross-terms
+
