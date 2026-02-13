@@ -412,7 +412,11 @@ class Domains:
             x -= (np.max(x) + np.min(x)) / 2
             y -= (np.max(y) + np.min(y)) / 2
             z -= (np.max(z) + np.min(z)) / 2
-
+            order = np.argsort(z)
+            x = x[order]
+            y = y[order]
+            z = z[order]
+            colors = colors[order]
             sc = ax.scatter(x, y, c=colors, cmap=cmap, s=s, alpha=alpha, rasterized=True, **kwargs)
             if colorbar:
                 plt.colorbar(sc)
@@ -422,9 +426,9 @@ class Domains:
         else:
             x, y, z = positions.T
             f, ax = plt.subplots(1, 3, figsize=(13, 4))
-            ax[0].scatter(x, y, c=colors, cmap=cmap, s=s, **kwargs)
-            ax[1].scatter(z, y, c=colors, cmap=cmap, s=s, **kwargs)
-            sc = ax[2].scatter(x, z, c=colors, cmap=cmap, s=s, **kwargs)
+            ax[0].scatter(x, y, zorder=z,c=colors, cmap=cmap, s=s, **kwargs)
+            ax[1].scatter(z, y, zorder=x, c=colors, cmap=cmap, s=s, **kwargs)
+            sc = ax[2].scatter(x, z, zorder=y, c=colors, cmap=cmap, s=s, **kwargs)
             ax[0].set_ylabel('y')
             ax[0].set_xlabel('x')
             ax[1].set_ylabel('y')
