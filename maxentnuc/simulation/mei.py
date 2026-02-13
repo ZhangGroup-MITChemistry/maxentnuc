@@ -443,6 +443,7 @@ def main(config, process_contact_map):
 
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
     try:
         main()
     except Exception as e:
