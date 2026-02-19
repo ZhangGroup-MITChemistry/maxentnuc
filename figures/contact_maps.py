@@ -6,7 +6,7 @@ from scipy.signal import find_peaks
 from scipy.ndimage import gaussian_filter1d
 
 from neighbor_balance.neighbor import normalize_contact_map_average, normalize_contact_map_neighbor
-from neighbor_balance.plotting import ContactMap, parse_region, format_ticks, get_epigenetics
+from neighbor_balance.plotting import ContactMap, parse_region, format_ticks, get_epigenetics, fixed_panel_grid, share_x_by_column
 from neighbor_balance.smoothing import coarsen_contact_map
 
 
@@ -53,10 +53,10 @@ class ChromHMM:
 
 def load_region_contact_map(condition, name, coarsen=False):
     if condition == 'MESC':
-        path = f'/home/joepaggi/maxentnuc-private/figures/region_contact_maps/WT_merged/{name}.npz'
+        path = f'region_contact_maps/WT_merged/{name}.npz'
     elif condition == 'G1E':
         print('WARNING: using MESC path for G1E')
-        path = f'/home/joepaggi/maxentnuc-private/figures/region_contact_maps/WT_merged/{name}.npz'
+        path = f'region_contact_maps/WT_merged/{name}.npz'
     else:
         path = f'/orcd/data/binz/001/belong/for_revisions/{condition}/{condition}/{condition}_output_{name}.npz'
     if not os.path.exists(path):
@@ -74,7 +74,6 @@ def load_region_contact_map(condition, name, coarsen=False):
             else:
                 contact_map = coarsen_contact_map(contact_map)
         return ContactMap(contact_map, chrom, start, end, 200)
-
 
     neighbor_contact_map = normalize_contact_map_neighbor(contact_map.copy())
     neighbor_contact_map = process(neighbor_contact_map)
@@ -164,9 +163,12 @@ def epigenetics_plot(self, tracks, depth=None, vmin=1e-4, smoothing=200, bin=Tru
     for track in tracks:
         height = track.height if track.height is not None else track_height
         height_ratios += [height]
-        
-    f, axs = plt.subplots(len(height_ratios), 1, figsize=(width, sum(height_ratios)), sharex=True,
-                          gridspec_kw={'height_ratios': height_ratios})
+
+    f, axs = fixed_panel_grid(len(height_ratios), 1, panel_width_in=width, panel_height_in=height_ratios,
+                              vspace_in=0.05, left_in=1.1, right_in=0.3, top_in=0.05, bottom_in=0.25)
+    share_x_by_column(axs)
+    axs = axs[:, 0]
+                          
     if show_map:
         self.plot_contact_map_horizontal(ax=axs[0], depth=depth, vmin=vmin, colorbar=False)
         contact_map_ax = axs[0]
@@ -247,7 +249,11 @@ def analyze_region(neighbor_contact_map, ice_contact_map, tracks, chromhmm_bed_f
     if zoom is not None:
         ax[0].set_xlim(*zoom)
 
-    plt.savefig(f'img/epigenetics_{condition}_{name}.png')
+    if condition in ['H1', 'K562']:
+        for a in ax:
+            a.set_ylabel('')
+
+    plt.savefig(f'img/epigenetics_{condition}_{name}.png', transparent=True)
     plt.close()
 
 if __name__ == '__main__':
@@ -287,7 +293,7 @@ if __name__ == '__main__':
             'H3K9me3': 'ENCFF385ZBQ.bigWig',
             'LaminB1 DamID': '4DNFIXNBG8L1.bw',
             'SON TSA-seq': '4DNFI625PP2A.bw',
-            'Condensability': 'condensibility_H1.bw',
+            'Condensability': 'data/condensibility_H1.bw',
         },
         'GM12878': {
             'A/B': '4DNFI3VXZ48N.bw',
@@ -297,7 +303,7 @@ if __name__ == '__main__':
             #'RNA': 'ENCFF048EJE.bigWig',
             'H3K27me3': 'ENCFF677PYB.bigWig',
             'H3K9me3': 'ENCFF701GHA.bigWig',
-            'Condensability': 'condensibility_GM12878.bw',
+            'Condensability': 'data/condensibility_GM12878.bw',
         },
         'K562': {
             'A/B': '4DNFIWUAO2QI.bw',
@@ -342,8 +348,6 @@ if __name__ == '__main__':
             #'RNA-seq': f'{supercloud}/omics/genomics_data/GSE123636_C59_1_2_RNAseq_coverage.mm39.bw',
         }
 
-
-
     track_ylims = {
         'Contact\ndensity': (0, 70),
         'A/B': (-1, 1),
@@ -365,7 +369,7 @@ if __name__ == '__main__':
     5 chr4:61,369,200-64,434,200
     """
 
-    conditions = ['MESC', 'GM12878', 'H1', 'HCT116', 'K562']
+    conditions = ['GM12878', 'H1', 'HCT116', 'K562']
     regions = ['1', '3', '4', '5']#, '6', '7', '8', '9', '10', '11', '12', '13', '14']
 
     zooms = {
@@ -394,6 +398,59 @@ if __name__ == '__main__':
 
         y = kde(bins)
         p.plot(bins, y, lw=lw, alpha=alpha, **kwargs)
+
+    for condition in conditions:
+        for name in regions:
+            print(f'Processing condition {condition}, region {name}...')
+            neighbor_contact_map, ice_contact_map = load_region_contact_map(condition, name, coarsen=False)
+        
+            _tracks = []
+            if 'Condensability' in tracks[condition]:
+                _tracks += [Track(path=tracks[condition]['Condensability'], style='line', name='Condensability', ylims=track_ylims['Condensability'], height=0.4, color='orange', ref_val=3.0)]
+
+            for track_name in ['H3K27ac', 'H3K27me3', 'H3K9me3', 'A/B']:
+                if track_name == 'H3K27ac':
+                    color = 'green'
+                elif track_name == 'H3K27me3':
+                    color = 'purple'
+                elif track_name == 'H3K9me3':
+                    color = 'blue'
+                elif track_name == 'A/B':
+                    color = 'green'
+                _tracks += [Track(path=tracks[condition][track_name], style='fill', name=track_name, ylims=track_ylims[track_name], color=color,
+                                ref_val=0.0 if track_name == 'A/B' else None)]
+        
+            analyze_region(neighbor_contact_map, ice_contact_map, _tracks, None, condition, name, track_ylims)
+
+    f, ax = plt.subplots(8, figsize=(10, 3), sharex=True, gridspec_kw={'height_ratios': [2, 1]*4})
+    name = '1'
+    zoom_start, zoom_end = 26_000_000, 26_300_000
+    for i, condition in enumerate(conditions):
+        neighbor_contact_map, ice_contact_map = load_region_contact_map(condition, name, coarsen=False)
+        marginal = neighbor_contact_map.get_marginal()
+        ax[2*i].plot(neighbor_contact_map.x(), marginal, label=condition, color='black')
+        ax[2*i].axhline(40, ls='--', c='gray', lw=1)
+        ax[2*i].set_yticks([40])
+        ax[2*i].set_ylim(0, 70)
+        ax[2*i].set_ylabel(condition, rotation=0, ha='right', va='center')
+
+        track_name = 'H3K27ac'
+        x, values = get_epigenetics(tracks[condition][track_name], neighbor_contact_map.chrom,
+                                    zoom_start, zoom_end,
+                                    smoothing=200, bin=True)
+        values /= np.percentile(values, 95)
+        ax[2*i+1].fill_between(x, 0, values, label=condition, alpha=0.5, color='green')
+        ax[2*i+1].set_yticks([1])
+        
+    for a in ax:
+        a.yaxis.tick_right()
+        a.spines['top'].set_visible(False)
+        a.spines['right'].set_visible(False)
+        a.spines['left'].set_visible(False)
+    ax[-1].set_xlim(zoom_start, zoom_end)
+    format_ticks(ax[-1], y=False, rotate=False)
+    plt.savefig('img/compare_region1_zoomup.png')
+    plt.close()
 
 
     for condition in conditions:
@@ -529,64 +586,6 @@ if __name__ == '__main__':
     ax.set_ylabel('Contact density')
     plt.savefig('img/condensability_vs_contact_density.png')
     plt.close()
-
-    f, ax = plt.subplots(8, figsize=(10, 3), sharex=True, gridspec_kw={'height_ratios': [2, 1]*4})
-    name = '1'
-    zoom_start, zoom_end = 26_000_000, 26_300_000
-    for i, condition in enumerate(conditions):
-        neighbor_contact_map, ice_contact_map = load_region_contact_map(condition, name, coarsen=False)
-        marginal = neighbor_contact_map.get_marginal()
-        ax[2*i].plot(neighbor_contact_map.x(), marginal, label=condition, color='black')
-        ax[2*i].axhline(40, ls='--', c='gray', lw=1)
-        ax[2*i].set_yticks([40])
-        ax[2*i].set_ylim(0, 70)
-        ax[2*i].set_ylabel(condition, rotation=0, ha='right', va='center')
-
-        track_name = 'H3K27ac'
-        x, values = get_epigenetics(tracks[condition][track_name], neighbor_contact_map.chrom,
-                                    zoom_start, zoom_end,
-                                    smoothing=200, bin=True)
-        values /= np.percentile(values, 95)
-        ax[2*i+1].fill_between(x, 0, values, label=condition, alpha=0.5, color='green')
-        ax[2*i+1].set_yticks([1])
-        
-    for a in ax:
-        a.yaxis.tick_right()
-        a.spines['top'].set_visible(False)
-        a.spines['right'].set_visible(False)
-        a.spines['left'].set_visible(False)
-    ax[-1].set_xlim(zoom_start, zoom_end)
-    format_ticks(ax[-1], y=False, rotate=False)
-    # ax[0].legend()
-    # ax[1].set_ylim(0)
-    # ax[0].yaxis.tick_right()
-    # ax[1].yaxis.tick_right()
-    # ax[1].set_ylabel('H3K27ac\n(normalized)', rotation=0, ha='right', va='center')
-    plt.savefig('img/compare_region1_zoomup.png')
-    plt.close()
-
-    for condition in conditions:
-        for name in regions:
-            print(f'Processing condition {condition}, region {name}...')
-            neighbor_contact_map, ice_contact_map = load_region_contact_map(condition, name, coarsen=False)
-        
-            _tracks = []
-            if 'Condensability' in tracks[condition]:
-                _tracks += [Track(path=tracks[condition]['Condensability'], style='line', name='Condensability', ylims=track_ylims['Condensability'], height=0.4, color='orange', ref_val=3.0)]
-
-            for track_name in ['H3K27ac', 'H3K27me3', 'H3K9me3', 'A/B']:
-                if track_name == 'H3K27ac':
-                    color = 'green'
-                elif track_name == 'H3K27me3':
-                    color = 'purple'
-                elif track_name == 'H3K9me3':
-                    color = 'blue'
-                elif track_name == 'A/B':
-                    color = 'green'
-                _tracks += [Track(path=tracks[condition][track_name], style='fill', name=track_name, ylims=track_ylims[track_name], color=color,
-                                ref_val=0.0 if track_name == 'A/B' else None)]
-        
-            analyze_region(neighbor_contact_map, ice_contact_map, _tracks, None, condition, name, track_ylims)
 
     # for condition in conditions:
     #     for name, _zooms in zooms.items():
