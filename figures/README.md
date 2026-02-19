@@ -24,7 +24,21 @@
 
 - Figure 6:
      - a: N/A
-     - b,c,d: domains.ipynb
+     - b,c: domains_hct116.ipynb
+     - d: transcription.ipynb
+
+## Extended data figures
+- Figure E1: genome_wide_microc.ipynb
+- Figure E2
+   - a,b,f: nanog_figures.ipynb
+   - c,d,e,g: sox2_figures.ipynb
+- Figure E3: smlm.ipynb
+- Figure E4: density.ipynb
+- Figure E5: domains.ipynb
+- Figure E6: domains.ipynb
+- Figure E7: contact_maps.py
+- Figure E8: domains_hct116.ipynb
+- Figure E9: domains.ipynb
 
 ## Supplementary figures
 
@@ -33,35 +47,26 @@
     - b,c: contact_map_ps.py
 - Figure S2: contact_map_processing.ipynb
 - Figure S3: neighbor_balancing_epigenetics.ipynb
-- Figure S4: neigbor_balancing_epigenetics.ipynb
-- Figure S5: genome_wide_microc.ipynb
-- Figure S6: convergence.ipynb
-- Figure S7
-   - a,b,f: nanog_figures.ipynb
-   - c,d,e,g: sox2_figures.ipynb
+- Figure S4: neighbor_balancing_epigenetics.ipynb
+- Figure S5: convergence.ipynb
+- Figure S6: domains.ipynb
+- Figure S7: domains.ipynb
 - Figure S8: domains.ipynb
-- Figure S9: density.ipynb
-- Figure S10: domains.ipynb
-- Figure S11: domains.ipynb
-- Figure S12
+- Figure S9
     - a,c: ~/visualizations/hierarchy.tcl
     - b,d: hierarchy.py
-- Figure S13: domains.ipynb
-- Figure S14
+- Figure S10: domains.ipynb
+- Figure S11
     - a: N/A
     - b, c, d, e: correlation_length.py
-- Figure S15: domains.ipynb
-- Figure S16: domains.ipynb
-- Figure S17: domains.ipynb
-- Figure S18
+- Figure S12
     - a,b,c,d,e,f: distance_scaling.ipynb
     - g,h,i: domains_search_interactions.ipynb
-- Figure S19
+- Figure S13
     - a,b: distance_scaling.ipynb
     - c: nanog_figures.ipynb
     - d,e,f: domains_search_capture.ipynb
-- Figure S20: domains_search_dbscan.ipynb
-- Figure S21: smlm.ipynb
-- Figure S22: contact_maps.ipynb
-- Figure S23: domains_hct116.ipynb
-- Figure S24: domains.ipynb
+- Figure S14: domains_search_dbscan.ipynb
+- Figure S15:
+    - a: domains.ipynb
+    - b: transcription.ipynb
